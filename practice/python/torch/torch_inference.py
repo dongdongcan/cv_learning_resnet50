@@ -1,3 +1,7 @@
+# Copyright (c) 2024  dongdongcan
+# This code is licensed under the MIT License.
+# See the LICENSE file for details.
+
 # 这段代码使用了 PyTorch 和预训练的 ResNet50 模型来对图像进行分类。
 
 # 它首先加载了预训练的 ResNet50 模型，然后对指定目录下的所有图片进行预处理，并使用模型进行预测。
@@ -16,9 +20,7 @@ import os  # 用于处理文件和目录的库
 # 定义图片目录
 pic_dir = "../../pics/"
 # 获取图片目录下所有图片文件的路径
-file_to_predict = [
-    pic_dir + f for f in os.listdir(pic_dir) if os.path.isfile(pic_dir + f)
-]
+file_to_predict = [pic_dir + f for f in os.listdir(pic_dir) if os.path.isfile(pic_dir + f)]
 
 from PIL import Image  # 用于图像处理的PIL库
 from torchvision import transforms  # 用于图像预处理的transforms库

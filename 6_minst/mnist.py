@@ -1,3 +1,7 @@
+# Copyright (c) 2024  dongdongcan
+# This code is licensed under the MIT License.
+# See the LICENSE file for details.
+
 # 导入NumPy数学工具箱
 import numpy as np
 
@@ -57,9 +61,7 @@ model.add(Dense(10, activation="softmax"))
 # 编译上述构建好的神经网络模型
 # 指定优化器为 rmsprop
 # 制定损失函数为交叉熵损失
-model.compile(
-    optimizer="rmsprop", loss="categorical_crossentropy", metrics=["accuracy"]
-)
+model.compile(optimizer="rmsprop", loss="categorical_crossentropy", metrics=["accuracy"])
 
 # 开始训练
 model.fit(

@@ -1,3 +1,7 @@
+# Copyright (c) 2024  dongdongcan
+# This code is licensed under the MIT License.
+# See the LICENSE file for details.
+
 # 这段代码是一个自定义实现的图像分类程序。
 # 它使用了类似于 ResNet50 架构的卷积神经网络来对图片进行分类。
 # 代码首先读取图像，然后通过一系列层（卷积、批归一化、ReLU激活、池化和全连接）处理图像，并输出分类结果。
@@ -277,12 +281,8 @@ def ComputeBottleNeck(in_data, bottleneck_layer_name, down_sample=False):
 
     # 如果需要下采样，则在残差路径上应用额外的卷积和批归一化
     if down_sample:
-        conv_out = ComputeConvLayer(
-            in_data, bottleneck_layer_name + "_downsample_conv2d"
-        )
-        short_cut_out = ComputeBatchNormLayer(
-            conv_out, bottleneck_layer_name + "_downsample_batchnorm"
-        )
+        conv_out = ComputeConvLayer(in_data, bottleneck_layer_name + "_downsample_conv2d")
+        short_cut_out = ComputeBatchNormLayer(conv_out, bottleneck_layer_name + "_downsample_batchnorm")
         bn_out = bn_out + short_cut_out
     else:
         # 否则，直接使用输入数据作为残差路径
@@ -333,9 +333,7 @@ def PreProcess(filename):
             transforms.Resize(256),  # 首先调整图像大小
             transforms.CenterCrop(224),  # 中心裁剪
             transforms.ToTensor(),  # 转换为PyTorch张量
-            transforms.Normalize(
-                mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]
-            ),  # 标准化
+            transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),  # 标准化
         ]
     )
 

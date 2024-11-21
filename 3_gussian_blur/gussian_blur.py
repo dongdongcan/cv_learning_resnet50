@@ -1,3 +1,7 @@
+# Copyright (c) 2024  dongdongcan
+# This code is licensed under the MIT License.
+# See the LICENSE file for details.
+
 # 这段代码展示了如何向图像中添加高斯噪声，并使用高斯滤波进行噪声去除。
 # 代码首先读取原始图像，然后添加高斯噪声，并应用高斯滤波。
 # 最后，使用 matplotlib 展示原始图像、添加噪声后的图像和去噪后的图像。

@@ -1,3 +1,7 @@
+// Copyright (c) dongdongcan
+// This code is licensed under the MIT License.
+// See the LICENSE file for details.
+
 int main() {
   int v1[5] = {1, 2, 4, 5, 6};
   int v2[5] = {11, 12, 14, 15, 16};

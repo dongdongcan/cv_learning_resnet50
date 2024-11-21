@@ -1,3 +1,8 @@
+# Copyright (c) 2024  dongdongcan
+# This code is licensed under the MIT License.
+# See the LICENSE file for details.
+
+
 def BatchNorm(img, mean, var, gamma, bias):
     """
     对图像进行批量归一化处理。

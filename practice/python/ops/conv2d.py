@@ -1,3 +1,7 @@
+# Copyright (c) 2024  dongdongcan
+# This code is licensed under the MIT License.
+# See the LICENSE file for details.
+
 import numpy as np
 
 
@@ -88,7 +92,6 @@ def Conv2dOpt(img, weight, hi, wi, ci, co, kernel, stride, pad):
     weight = np.array(weight).reshape(co, kernel, kernel, ci)
     img_pad = np.pad(img, ((pad, pad), (pad, pad), (0, 0)), "constant")
     img_out = np.zeros((ho, wo, co))
-
 
     # 使用 vdot 来优化乘加操作（MAC）
     for co_ in range(co):

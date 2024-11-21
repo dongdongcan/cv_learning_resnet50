@@ -1,3 +1,7 @@
+# Copyright (c) 2024  dongdongcan
+# This code is licensed under the MIT License.
+# See the LICENSE file for details.
+
 # 这段代码演示了如何使用 OpenCV 进行边缘检测。
 # 它首先读取一幅图像，然后应用 Canny 算子来检测图像中的边缘。
 # 最后，使用 Matplotlib 显示原始图像和检测到的边缘。

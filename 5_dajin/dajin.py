@@ -1,3 +1,7 @@
+# Copyright (c) 2024  dongdongcan
+# This code is licensed under the MIT License.
+# See the LICENSE file for details.
+
 # 这段代码展示了如何使用 OpenCV 库进行图像分割。
 # 它首先读取一幅灰度图像，然后使用大津算法（Otsu's method）自动找到一个阈值来将图像分割为二值图像（黑白图像）。
 # 最后，使用 Matplotlib 将原始图像和分割后的图像显示出来。

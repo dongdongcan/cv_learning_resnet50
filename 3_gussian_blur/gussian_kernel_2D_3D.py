@@ -1,3 +1,7 @@
+# Copyright (c) 2024  dongdongcan
+# This code is licensed under the MIT License.
+# See the LICENSE file for details.
+
 # 这段代码展示了如何生成一个高斯滤波器（高斯核），并使用 matplotlib 绘制其二维和三维图像。
 # 高斯滤波器是一种常用于图像处理中的平滑滤波器，它根据高斯函数生成一个核，该核在图像处理中用于模糊图像和去除噪声。
 
@@ -49,9 +53,7 @@ def plot_gaussian_kernel(kernel):
 
     # 绘制三维高斯核图像
     ax2 = fig.add_subplot(122, projection="3d")  # 添加子图位于右侧，并设置为3D模式
-    x, y = np.arange(0, kernel.shape[0], 1), np.arange(
-        0, kernel.shape[1], 1
-    )  # 创建x和y坐标网格
+    x, y = np.arange(0, kernel.shape[0], 1), np.arange(0, kernel.shape[1], 1)  # 创建x和y坐标网格
     x, y = np.meshgrid(x, y)
     ax2.plot_surface(x, y, kernel, cmap="viridis")  # 绘制高斯核的3D表面图
     ax2.set_title("3D Gaussian Kernel")  # 设置图像标题

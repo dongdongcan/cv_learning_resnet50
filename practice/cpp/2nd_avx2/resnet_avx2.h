@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2024  dongdongcan
+ * This code is licensed under the MIT License.
+ * See the LICENSE file for details.
+ */
+
 #pragma once
 
 float* compute_relu_layer(float* img, int len);

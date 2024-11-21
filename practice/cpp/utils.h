@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2024  dongdongcan
+ * This code is licensed under the MIT License.
+ * See the LICENSE file for details.
+ */
+
 #include <dirent.h>  // 引入目录操作的标准库，用于文件和目录的处理
 
 #include <chrono>    // 引入时间库，用于进行时间的测量和转换

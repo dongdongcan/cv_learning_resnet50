@@ -1,3 +1,7 @@
+// Copyright (c) dongdongcan
+// This code is licensed under the MIT License.
+// See the LICENSE file for details.
+
 #include "conv2d.h"
 
 #include <immintrin.h>

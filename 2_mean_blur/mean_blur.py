@@ -1,3 +1,7 @@
+# Copyright (c) 2024  dongdongcan
+# This code is licensed under the MIT License.
+# See the LICENSE file for details.
+
 # 本代码展示如何向图像中添加椒盐噪声，并使用均值滤波器进行噪声去除
 
 # 导入必要的库
@@ -29,16 +33,12 @@ def add_salt_and_pepper_noise(image, salt_prob, pepper_prob):
 
     # 添加椒盐噪声（黑色）
     num_salt = np.ceil(salt_prob * total_pixels)  # 根据椒盐噪声声概率计算需要添加的椒盐噪声声像素数
-    salt_coords = [
-        np.random.randint(0, i - 1, int(num_salt)) for i in image.shape
-    ]  # 随机生成椒盐噪声的坐标
+    salt_coords = [np.random.randint(0, i - 1, int(num_salt)) for i in image.shape]  # 随机生成椒盐噪声的坐标
     noisy_image[salt_coords[0], salt_coords[1], :] = 255  # 将椒盐噪声像素设置为白色
 
     # 添加椒盐噪声（白色）
     num_pepper = np.ceil(pepper_prob * total_pixels)  # 根据椒盐噪声概率计算需要添加的椒盐噪声像素数
-    pepper_coords = [
-        np.random.randint(0, i - 1, int(num_pepper)) for i in image.shape
-    ]  # 随机生成椒盐噪声的坐标
+    pepper_coords = [np.random.randint(0, i - 1, int(num_pepper)) for i in image.shape]  # 随机生成椒盐噪声的坐标
     noisy_image[pepper_coords[0], pepper_coords[1], :] = 0  # 将椒盐噪声像素设置为黑色
 
     return noisy_image  # 返回添加了噪声的图像
@@ -46,9 +46,7 @@ def add_salt_and_pepper_noise(image, salt_prob, pepper_prob):
 
 # 向图像添加椒盐噪声
 # 设置椒噪声和盐噪声的概率为 2%
-salt_and_pepper_image = add_salt_and_pepper_noise(
-    image, salt_prob=0.02, pepper_prob=0.02
-)
+salt_and_pepper_image = add_salt_and_pepper_noise(image, salt_prob=0.02, pepper_prob=0.02)
 
 # 定义均值滤波器的核大小
 # 设置核大小为 8x8

@@ -1,3 +1,7 @@
+# Copyright (c) 2024  dongdongcan
+# This code is licensed under the MIT License.
+# See the LICENSE file for details.
+
 # 这段代码用于演示如何将RGB图像转换为YUV格式，并展示其Y、U、V各通道的效果
 
 import cv2  # 导入OpenCV库，用于图像处理
@@ -16,9 +20,7 @@ y_channel, u_channel, v_channel = cv2.split(yuv_image)
 
 # 使用matplotlib的subplot函数和imshow函数显示四个子图
 # 第一个子图为原始的RGB图像
-plt.subplot(221), plt.imshow(cv2.cvtColor(rgb_image, cv2.COLOR_BGR2RGB)), plt.title(
-    "Original RGB feature"
-)
+plt.subplot(221), plt.imshow(cv2.cvtColor(rgb_image, cv2.COLOR_BGR2RGB)), plt.title("Original RGB feature")
 # 第二个子图为Y通道的图像，使用灰度图显示
 plt.subplot(222), plt.imshow(y_channel, cmap="gray"), plt.title("Y channel")
 # 第三个子图为U通道的图像，同样使用灰度图显示
