@@ -303,15 +303,16 @@ $ pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 ---
 ## 完整的学习路线和教程
-[从零手写Resnet50](https://mp.weixin.qq.com/s/9sdmLFcNWnASmzpYNIhQKQ?token=273250015&lang=zh_CN)
+- [10万字的保姆级学习教程](https://xiaobot.net/post/07f6615a-4946-42fb-93ab-4ef4bd79aa34)
+- [从零手写Resnet50 1对1包会课程](https://mp.weixin.qq.com/s/9sdmLFcNWnASmzpYNIhQKQ?token=273250015&lang=zh_CN)
 
 ---
-## 其他 Contact me
-
+## 其他
 - 本项目所有代码和相关文章，均为个人原创，未经同意，请勿随意转载至任何平台，更不可用于商业目的，我已委托相关维权人士对原创文章和代码进行监督。
-- 如果你有其他相关事宜，欢迎和我交流:
+---
+## 联系我
 - 微信号：ddcsggcs
-- [公众号:董董灿是个攻城狮](https://mp.weixin.qq.com/s/9sdmLFcNWnASmzpYNIhQKQ?token=273250015&lang=zh_CN)
+- 公众号：[董董灿是个攻城狮](https://mp.weixin.qq.com/s/9sdmLFcNWnASmzpYNIhQKQ?token=273250015&lang=zh_CN)
 - 邮箱：dongdongcan2024@163.com。
 
 
