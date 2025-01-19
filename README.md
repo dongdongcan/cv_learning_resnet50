@@ -69,12 +69,7 @@ If you cannot understand Chinese, please refer to [this section](https://github.
 
 该项目搭配有 100+ 篇背景知识、原理解析和代码实操相关的介绍文章, 花费了巨大的精力写成。
 
-有两种办法可以阅读到这些文章：
-
-1. 在[这里](https://mp.weixin.qq.com/s/UWdQmlCrnzUvw8kOIb3PXw)订阅。
-
-2. 在[这里](https://mp.weixin.qq.com/s/9De_ys5ibl6JxEzFN_qZmQ)订阅。
-
+你可以加入知识星球，即可免费阅读到本项目的所有文章 ： [2025我们星球见](https://mp.weixin.qq.com/s/e2IRTS7QWW5qEOLKjBBPbQ?token=1017142557&lang=zh_CN)
 
 ---
 ## 仓库结构
@@ -310,8 +305,7 @@ $ pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 ---
 ## 完整的学习路线和教程
-- [10万字的保姆级学习教程](https://xiaobot.net/post/07f6615a-4946-42fb-93ab-4ef4bd79aa34)
-- [从零手写Resnet50 1对1包会课程](https://mp.weixin.qq.com/s/9sdmLFcNWnASmzpYNIhQKQ?token=273250015&lang=zh_CN)
+加入知识星球，即可免费阅读到本项目的所有文章 ： [2025我们星球见](https://mp.weixin.qq.com/s/e2IRTS7QWW5qEOLKjBBPbQ?token=1017142557&lang=zh_CN)
 
 ---
 ## 其他
