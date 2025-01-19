@@ -1,11 +1,11 @@
-// Copyright (c) dongdongcan
+// Copyright (c) 2024 dongdongcan
 // This code is licensed under the MIT License.
 // See the LICENSE file for details.
 
-#include <sstream>
 #include <fstream>
-#include <string>
 #include <iostream>
+#include <sstream>
+#include <string>
 
 static inline void write(const std::string& filename, const std::ostringstream& content) {
   std::ofstream file(filename, std::ios::out | std::ios::trunc);

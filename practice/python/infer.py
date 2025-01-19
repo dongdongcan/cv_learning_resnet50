@@ -1,4 +1,4 @@
-# Copyright (c) 2024  dongdongcan
+# Copyright (c) 2024 dongdongcan
 # This code is licensed under the MIT License.
 # See the LICENSE file for details.
 
@@ -306,7 +306,7 @@ def GetPicList():
     # 获取图片目录下所有文件的路径
     file_to_predict = [pic_dir + f for f in os.listdir(pic_dir)]
     # 为了测试，这里指定了一个特定的图片文件
-    file_to_predict = ["../pics/cat.jpg"]
+    file_to_predict = ["../pics/animals/dog.jpg"]
     return file_to_predict
 
 
@@ -328,7 +328,7 @@ def PreProcess(filename):
     img = Image.open(filename)
 
     # 定义预处理步骤
-    PreProcess = transforms.Compose(
+    PreProcessFunction = transforms.Compose(
         [
             transforms.Resize(256),  # 首先调整图像大小
             transforms.CenterCrop(224),  # 中心裁剪
@@ -338,7 +338,7 @@ def PreProcess(filename):
     )
 
     # 对图像应用预处理
-    input_tensor = PreProcess(img)
+    input_tensor = PreProcessFunction(img)
     # 增加一个批次维度
     input_batch = input_tensor.unsqueeze(0)
 

@@ -1,4 +1,4 @@
-// Copyright (c) dongdongcan
+// Copyright (c) 2024 dongdongcan
 // This code is licensed under the MIT License.
 // See the LICENSE file for details.
 
@@ -561,7 +561,7 @@ Module LoadModule() {
     printf("Error with dlsym.\n");
     return 0;
   } else {
-    printf("Succ Get myFunc\n");
+    printf("Success Get myFunc\n");
   }
   return myFunc;
 }

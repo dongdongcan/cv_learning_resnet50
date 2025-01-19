@@ -1,4 +1,4 @@
-// Copyright (c) dongdongcan
+// Copyright (c) 2024 dongdongcan
 // This code is licensed under the MIT License.
 // See the LICENSE file for details.
 
@@ -58,7 +58,7 @@ int main() {
 
     int res_label = ShowResult(__global_mem_main1);
     if (res_label == it.second) {
-      std::cout << "\033[0;32mInference Result Succ \033[0m" << std::endl;
+      std::cout << "\033[0;32mInference Result Success \033[0m" << std::endl;
     } else {
       std::cout << "\033[0;31mInference Result Fail: Golden Label: " << it.second
                 << ", Res Lable: " << res_label << "\033[0m" << std::endl;

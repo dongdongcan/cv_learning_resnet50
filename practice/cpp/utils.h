@@ -1,8 +1,6 @@
-/*
- * Copyright (c) 2024  dongdongcan
- * This code is licensed under the MIT License.
- * See the LICENSE file for details.
- */
+// Copyright (c) 2024 dongdongcan
+// This code is licensed under the MIT License.
+// See the LICENSE file for details.
 
 #include <dirent.h>  // 引入目录操作的标准库，用于文件和目录的处理
 
@@ -23,9 +21,9 @@
 static inline std::map<std::string, int> GetFileName() {
   std::map<std::string, int> res;  // 创建一个字符串到整数的map，用于存储文件名和标签
 
-  std::string dir_path("../../pics/ani_12/");  // 指定目录路径
-  DIR* dir = opendir(dir_path.c_str());        // 打开目录
-  if (dir == nullptr) {                        // 检查目录是否成功打开
+  std::string dir_path("../../pics/animals/");  // 指定目录路径
+  DIR* dir = opendir(dir_path.c_str());         // 打开目录
+  if (dir == nullptr) {                         // 检查目录是否成功打开
     std::cerr << "Failed to open directory: " << dir_path << std::endl;  // 打印错误信息
     exit(0);  // 未能打开目录时退出程序
   }
@@ -45,29 +43,29 @@ static inline std::map<std::string, int> GetFileName() {
   // 遍历文件名vector，并根据文件名分配相应的标签
   for (const auto& filename : filenames) {
     // 以下是一系列的条件判断，为特定的文件名分配标签
-    if (filename == "../../pics/ani_12/LaoHu.jpg") {
+    if (filename == "../../pics/animals/tiger.jpg") {
       label = 292;
-    } else if (filename == "../../pics/ani_12/Ji.jpg") {
+    } else if (filename == "../../pics/animals/rooster.jpg") {
       label = 7;
-    } else if (filename == "../../pics/ani_12/HouZi.jpg") {
+    } else if (filename == "../../pics/animals/monkey.jpg") {
       label = 373;
-    } else if (filename == "../../pics/ani_12/TuZi.jpg") {
+    } else if (filename == "../../pics/animals/rabbit.jpg") {
       label = 282;
-    } else if (filename == "../../pics/ani_12/Yang.jpg") {
+    } else if (filename == "../../pics/animals/sheep.jpg") {
       label = 348;
-    } else if (filename == "../../pics/ani_12/Niu.jpg") {
+    } else if (filename == "../../pics/animals/cattle.jpg") {
       label = 345;
-    } else if (filename == "../../pics/ani_12/LaoShu.jpg") {
+    } else if (filename == "../../pics/animals/rat.jpg") {
       label = 367;
-    } else if (filename == "../../pics/ani_12/Ma.jpg") {
+    } else if (filename == "../../pics/animals/horse.jpg") {
       label = 268;
-    } else if (filename == "../../pics/ani_12/Zhu.jpg") {
+    } else if (filename == "../../pics/animals/pig.jpg") {
       label = 341;
-    } else if (filename == "../../pics/ani_12/Long.jpg") {
+    } else if (filename == "../../pics/animals/dragon.jpg") {
       label = 39;
-    } else if (filename == "../../pics/ani_12/Gou.jpg") {
+    } else if (filename == "../../pics/animals/dog.jpg") {
       label = 258;
-    } else if (filename == "../../pics/ani_12/She.jpg") {
+    } else if (filename == "../../pics/animals/snake.jpg") {
       label = 53;
     } else {
       std::cout << "No Golden Label for " << filename << std::endl;
