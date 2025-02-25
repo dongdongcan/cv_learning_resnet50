@@ -1,5 +1,5 @@
 # Copyright (c) 2024 dongdongcan
-# This code is licensed under the MIT License.
+# This code is licensed under the Apache License.
 # See the LICENSE file for details.
 
 # 这段代码是一个自定义实现的图像分类程序。

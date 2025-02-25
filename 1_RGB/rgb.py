@@ -1,5 +1,5 @@
 # Copyright (c) 2024 dongdongcan
-# This code is licensed under the MIT License.
+# This code is licensed under the Apache License.
 # See the LICENSE file for details.
 
 # 本代码展示如何使用 PIL, NumPy 和 matplotlib 处理并展示彩色 RGB 图像的不同颜色通道

@@ -1,5 +1,5 @@
 # Copyright (c) 2024 dongdongcan
-# This code is licensed under the MIT License.
+# This code is licensed under the Apache License.
 # See the LICENSE file for details.
 
 # 这段代码用于演示如何将RGB图像转换为YUV格式，并展示其Y、U、V各通道的效果

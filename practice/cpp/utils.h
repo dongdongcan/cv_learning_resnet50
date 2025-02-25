@@ -1,5 +1,5 @@
 // Copyright (c) 2024 dongdongcan
-// This code is licensed under the MIT License.
+// This code is licensed under the Apache License.
 // See the LICENSE file for details.
 
 #include <dirent.h>  // 引入目录操作的标准库，用于文件和目录的处理

@@ -1,5 +1,5 @@
 # Copyright (c) 2024 dongdongcan
-# This code is licensed under the MIT License.
+# This code is licensed under the Apache License.
 # See the LICENSE file for details.
 
 # 这段代码用于从一个预训练的 ResNet50 模型中提取并保存网络的参数。

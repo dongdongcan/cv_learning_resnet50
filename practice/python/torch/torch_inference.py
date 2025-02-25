@@ -1,5 +1,5 @@
 # Copyright (c) 2024 dongdongcan
-# This code is licensed under the MIT License.
+# This code is licensed under the Apache License.
 # See the LICENSE file for details.
 
 # 这段代码使用了 PyTorch 和预训练的 ResNet50 模型来对图像进行分类。

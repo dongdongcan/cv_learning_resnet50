@@ -1,5 +1,5 @@
 # Copyright (c) 2024 dongdongcan
-# This code is licensed under the MIT License.
+# This code is licensed under the Apache License.
 # See the LICENSE file for details.
 
 # 本代码展示如何向图像中添加椒盐噪声，并使用均值滤波器进行噪声去除

@@ -1,5 +1,5 @@
 # Copyright (c) 2024 dongdongcan
-# This code is licensed under the MIT License.
+# This code is licensed under the Apache License.
 # See the LICENSE file for details.
 
 # 这段代码展示了如何向图像中添加高斯噪声，并使用高斯滤波进行噪声去除。

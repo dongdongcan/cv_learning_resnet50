@@ -1,5 +1,5 @@
 # Copyright (c) 2024 dongdongcan
-# This code is licensed under the MIT License.
+# This code is licensed under the Apache License.
 # See the LICENSE file for details.
 
 # 这段代码展示了如何生成一个高斯滤波器（高斯核），并使用 matplotlib 绘制其二维和三维图像。
