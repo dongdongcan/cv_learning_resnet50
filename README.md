@@ -8,7 +8,7 @@ If you cannot understand Chinese, please refer to [this section](https://github.
 > 
 > 原创 AI 学习系列教程，点击这里：[https://www.yuque.com/yuqueyonghupftxbc/ai100/klydnq5blhqq8x1s](https://www.yuque.com/yuqueyonghupftxbc/ai100/klydnq5blhqq8x1s)
 >
-> 加入知识星球，一起学习 AI ： [2025我们星球见](https://mp.weixin.qq.com/s/e2IRTS7QWW5qEOLKjBBPbQ?token=1017142557&lang=zh_CN)
+> 加入知识星球，一起学习 AI ： [2025我们星球见](https://mp.weixin.qq.com/s/_c7KlPvGUV3pMgFg2uRD6Q)
 
 
 ## 项目介绍
