@@ -6,9 +6,10 @@ If you cannot understand Chinese, please refer to [this section](https://github.
 ---
 > 从 0 到 1， 带你学习 AI 视觉。
 > 
-> 原创 AI 学习系列教程，点击这里：[https://www.yuque.com/yuqueyonghupftxbc/ai100/klydnq5blhqq8x1s](https://www.yuque.com/yuqueyonghupftxbc/ai100/klydnq5blhqq8x1s)
->
-> 加入知识星球，一起学习 AI ： [2025我们星球见](https://mp.weixin.qq.com/s/_c7KlPvGUV3pMgFg2uRD6Q)
+> 本代码仓库配有 100+篇文章，共20万字的专栏，点击这里：[AI视觉入门与调优](https://www.yuque.com/yuqueyonghupftxbc/ai100/klydnq5blhqq8x1s)
+> 本代码仓库同时配有出版纸质书籍，[AI视觉入门与调优出版书籍](https://www.yuque.com/yuqueyonghupftxbc/ai100/wa5bfrgp1dg2abgh)。京东、天猫和拼多多均有售，欢迎选购。
+> 
+> 加入知识星球，一起学习 AI ： [2025我们星球见]([https://mp.weixin.qq.com/s/_c7KlPvGUV3pMgFg2uRD6Q](https://www.yuque.com/yuqueyonghupftxbc/ai100/aiy5vb3bu2id5agp))
 
 
 ## 项目介绍
