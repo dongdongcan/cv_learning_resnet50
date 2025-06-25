@@ -1,6 +1,6 @@
 # cv_learning_resnet50
 
-中文 | [英文](./README.en.md)
+中文 | [English](./README.en.md)
 
 ---
 > 从 0 到 1， 带你学习 AI 视觉。

@@ -1,6 +1,6 @@
 # cv_learning_resnet50
 
-[中文](./README.md) | 英文
+[中文](./README.md) | English
 
 ---
 ## Project Introduction
