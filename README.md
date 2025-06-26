@@ -315,5 +315,7 @@ $ pip3 install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 - 公众号：[董董灿是个攻城狮](https://mp.weixin.qq.com/s/9sdmLFcNWnASmzpYNIhQKQ?token=273250015&lang=zh_CN)
 - 邮箱：dongdongcan2024@163.com。
 
+# Start History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=dongdongcan/cv_learning_resnet50&type=Date)](https://www.star-history.com/#dongdongcan/cv_learning_resnet50&Date)
 
